@@ -1,0 +1,327 @@
+@font-face {
+  font-family: 'Animals';
+  src:  url('../fonts/Animals.eot?bye0bq');
+  src:  url('../fonts/Animals.eot?bye0bq#iefix') format('embedded-opentype'),
+    url('../fonts/Animals.ttf?bye0bq') format('truetype'),
+    url('../fonts/Animals.woff?bye0bq') format('woff'),
+    url('../fonts/Animals.svg?bye0bq#Animals') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="animal-"], [class*=" animal-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Animals' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.animal-dog-1-left:before {
+  content: "\21";
+}
+.animal-shark-left:before {
+  content: "\22";
+}
+.animal-penguin-1-left:before {
+  content: "\23";
+}
+.animal-penguin-2-left:before {
+  content: "\24";
+}
+.animal-butterfly-left:before {
+  content: "\25";
+}
+.animal-donkey-left:before {
+  content: "\26";
+}
+.animal-hippo-left:before {
+  content: "\27";
+}
+.animal-bear-1-left:before {
+  content: "\28";
+}
+.animal-goat-left:before {
+  content: "\29";
+}
+.animal-wolf-left:before {
+  content: "\2a";
+}
+.animal-kangaroo-left:before {
+  content: "\2b";
+}
+.animal-tiger-left:before {
+  content: "\2c";
+}
+.animal-cow-left:before {
+  content: "\2d";
+}
+.animal-elephant-1-left:before {
+  content: "\2e";
+}
+.animal-swan-left:before {
+  content: "\2f";
+}
+.animal-gorilla-left:before {
+  content: "\30";
+}
+.animal-duck-left:before {
+  content: "\31";
+}
+.animal-bird-1-left:before {
+  content: "\32";
+}
+.animal-rhino-2-left:before {
+  content: "\33";
+}
+.animal-stork-left:before {
+  content: "\34";
+}
+.animal-lamb-left:before {
+  content: "\35";
+}
+.animal-rabbit-1-left:before {
+  content: "\36";
+}
+.animal-elephant-2-left:before {
+  content: "\37";
+}
+.animal-monkey-left:before {
+  content: "\38";
+}
+.animal-pelican-left:before {
+  content: "\39";
+}
+.animal-rabbit-2-left:before {
+  content: "\3a";
+}
+.animal-crocodile-left:before {
+  content: "\3b";
+}
+.animal-cat-2-left:before {
+  content: "\3c";
+}
+.animal-giraffe-left:before {
+  content: "\3d";
+}
+.animal-turtle-left:before {
+  content: "\3e";
+}
+.animal-rhino-1-left:before {
+  content: "\3f";
+}
+.animal-crocodile-right:before {
+  content: "\41";
+}
+.animal-bird-2-right:before {
+  content: "\42";
+}
+.animal-cat-2-right:before {
+  content: "\43";
+}
+.animal-dog-2-right:before {
+  content: "\44";
+}
+.animal-elephant-1-right:before {
+  content: "\45";
+}
+.animal-bird-3-right:before {
+  content: "\46";
+}
+.animal-horse-right:before {
+  content: "\48";
+}
+.animal-giraffe-right:before {
+  content: "\49";
+}
+.animal-gazelle-right:before {
+  content: "\4a";
+}
+.animal-kangaroo-right:before {
+  content: "\4b";
+}
+.animal-lama-right:before {
+  content: "\4c";
+}
+.animal-gorilla-right:before {
+  content: "\4d";
+}
+.animal-cow-right:before {
+  content: "\4e";
+}
+.animal-boar-right:before {
+  content: "\4f";
+}
+.animal-penguin-1-right:before {
+  content: "\50";
+}
+.animal-swan-right:before {
+  content: "\51";
+}
+.animal-rabbit-2-right:before {
+  content: "\52";
+}
+.animal-seal-right:before {
+  content: "\53";
+}
+.animal-turtle-right:before {
+  content: "\54";
+}
+.animal-rhino-l-right:before {
+  content: "\55";
+}
+.animal-wolf-right:before {
+  content: "\56";
+}
+.animal-whale-right:before {
+  content: "\57";
+}
+.animal-bear-2-right:before {
+  content: "\58";
+}
+.animal-pelican-right:before {
+  content: "\59";
+}
+.animal-squirrel-left:before {
+  content: "\5a";
+}
+.animal-horse-2-left:before {
+  content: "\5b";
+}
+.animal-bear-3-left:before {
+  content: "\5c";
+}
+.animal-bird-2-left:before {
+  content: "\5d";
+}
+.animal-deer-left:before {
+  content: "\5e";
+}
+.animal-eagle-left:before {
+  content: "\5f";
+}
+.animal-whale-left:before {
+  content: "\60";
+}
+.animal-butterfly-right:before {
+  content: "\62";
+}
+.animal-cat-1-right:before {
+  content: "\63";
+}
+.animal-dog-1-right:before {
+  content: "\64";
+}
+.animal-elephant-2-right:before {
+  content: "\65";
+}
+.animal-eagle-right:before {
+  content: "\66";
+}
+.animal-stork-right:before {
+  content: "\67";
+}
+.animal-horse-2-right:before {
+  content: "\68";
+}
+.animal-deer-right:before {
+  content: "\69";
+}
+.animal-goat-right:before {
+  content: "\6a";
+}
+.animal-bear-3-right:before {
+  content: "\6b";
+}
+.animal-lamb-rgiht:before {
+  content: "\6c";
+}
+.animal-monkey-right:before {
+  content: "\6d";
+}
+.animal-buffalo-right:before {
+  content: "\6e";
+}
+.animal-squirrel-right:before {
+  content: "\6f";
+}
+.animal-penguin-2-right:before {
+  content: "\70";
+}
+.animal-duck-right:before {
+  content: "\71";
+}
+.animal-rabbit-1-right:before {
+  content: "\72";
+}
+.animal-seahorse-right:before {
+  content: "\73";
+}
+.animal-tiger-right:before {
+  content: "\74";
+}
+.animal-rhino-s-right:before {
+  content: "\75";
+}
+.animal-hippo-right:before {
+  content: "\76";
+}
+.animal-shark-right:before {
+  content: "\77";
+}
+.animal-bear-1-right:before {
+  content: "\78";
+}
+.animal-bird-1-right:before {
+  content: "\79";
+}
+.animal-donkey-right:before {
+  content: "\7a";
+}
+.animal-seal-right1:before {
+  content: "\7b";
+}
+.animal-dog-2-left:before {
+  content: "\7c";
+}
+.animal-bird-3-left:before {
+  content: "\7d";
+}
+.animal-buffalo-left:before {
+  content: "\7e";
+}
+.animal-boar-left:before {
+  content: "\c4";
+}
+.animal-bear-2-left:before {
+  content: "\d6";
+}
+.animal-seahorse-left:before {
+  content: "\dc";
+}
+.animal-cat-1-left:before {
+  content: "\df";
+}
+.animal-lama-left:before {
+  content: "\e4";
+}
+.animal-zebra-right:before {
+  content: "\e8";
+}
+.animal-zebra-left:before {
+  content: "\e9";
+}
+.animal-horse-left:before {
+  content: "\f6";
+}
+.animal-gazelle-left:before {
+  content: "\fc";
+}

@@ -1,0 +1,711 @@
+@font-face {
+  font-family: 'weathericons';
+  src:  url('../fonts/weathericons.eot?oyxfc6');
+  src:  url('../fonts/weathericons.eot?oyxfc6#iefix') format('embedded-opentype'),
+    url('../fonts/weathericons.ttf?oyxfc6') format('truetype'),
+    url('../fonts/weathericons.woff?oyxfc6') format('woff'),
+    url('../fonts/weathericons.svg?oyxfc6#weathericons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="wi-wi-"], [class*=" wi-wi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'weathericons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wi-wi-day-cloudy-gusts:before {
+  content: "\f000";
+}
+.wi-wi-day-cloudy-windy:before {
+  content: "\f001";
+}
+.wi-wi-day-cloudy:before {
+  content: "\f002";
+}
+.wi-wi-day-fog:before {
+  content: "\f003";
+}
+.wi-wi-day-hail:before {
+  content: "\f004";
+}
+.wi-wi-day-lightning:before {
+  content: "\f005";
+}
+.wi-wi-day-rain-mix:before {
+  content: "\f006";
+}
+.wi-wi-day-rain-wind:before {
+  content: "\f007";
+}
+.wi-wi-day-rain:before {
+  content: "\f008";
+}
+.wi-wi-day-showers:before {
+  content: "\f009";
+}
+.wi-wi-day-snow:before {
+  content: "\f00a";
+}
+.wi-wi-day-sprinkle:before {
+  content: "\f00b";
+}
+.wi-wi-day-sunny-overcast:before {
+  content: "\f00c";
+}
+.wi-wi-day-sunny:before {
+  content: "\f00d";
+}
+.wi-wi-day-storm-showers:before {
+  content: "\f00e";
+}
+.wi-wi-day-thunderstorm:before {
+  content: "\f010";
+}
+.wi-wi-cloudy-gusts:before {
+  content: "\f011";
+}
+.wi-wi-cloudy-windy:before {
+  content: "\f012";
+}
+.wi-wi-cloudy:before {
+  content: "\f013";
+}
+.wi-wi-fog:before {
+  content: "\f014";
+}
+.wi-wi-hail:before {
+  content: "\f015";
+}
+.wi-wi-lightning:before {
+  content: "\f016";
+}
+.wi-wi-rain-mix:before {
+  content: "\f017";
+}
+.wi-wi-rain-wind:before {
+  content: "\f018";
+}
+.wi-wi-rain:before {
+  content: "\f019";
+}
+.wi-wi-showers:before {
+  content: "\f01a";
+}
+.wi-wi-snow:before {
+  content: "\f01b";
+}
+.wi-wi-sprinkle:before {
+  content: "\f01c";
+}
+.wi-wi-storm-showers:before {
+  content: "\f01d";
+}
+.wi-wi-thunderstorm:before {
+  content: "\f01e";
+}
+.wi-wi-windy:before {
+  content: "\f021";
+}
+.wi-wi-night-alt-cloudy-gusts:before {
+  content: "\f022";
+}
+.wi-wi-night-alt-cloudy-windy:before {
+  content: "\f023";
+}
+.wi-wi-night-alt-hail:before {
+  content: "\f024";
+}
+.wi-wi-night-alt-lightning:before {
+  content: "\f025";
+}
+.wi-wi-night-alt-rain-mix:before {
+  content: "\f026";
+}
+.wi-wi-night-alt-rain-wind:before {
+  content: "\f027";
+}
+.wi-wi-night-alt-rain:before {
+  content: "\f028";
+}
+.wi-wi-night-alt-showers:before {
+  content: "\f029";
+}
+.wi-wi-night-alt-snow:before {
+  content: "\f02a";
+}
+.wi-wi-night-alt-sprinkle:before {
+  content: "\f02b";
+}
+.wi-wi-night-alt-storm-showers:before {
+  content: "\f02c";
+}
+.wi-wi-night-alt-thunderstorm:before {
+  content: "\f02d";
+}
+.wi-wi-night-clear:before {
+  content: "\f02e";
+}
+.wi-wi-night-cloudy-gusts:before {
+  content: "\f02f";
+}
+.wi-wi-night-cloudy-windy:before {
+  content: "\f030";
+}
+.wi-wi-night-cloudy:before {
+  content: "\f031";
+}
+.wi-wi-night-hail:before {
+  content: "\f032";
+}
+.wi-wi-night-lightning:before {
+  content: "\f033";
+}
+.wi-wi-night-rain-mix:before {
+  content: "\f034";
+}
+.wi-wi-night-rain-wind:before {
+  content: "\f035";
+}
+.wi-wi-night-rain:before {
+  content: "\f036";
+}
+.wi-wi-night-showers:before {
+  content: "\f037";
+}
+.wi-wi-night-snow:before {
+  content: "\f038";
+}
+.wi-wi-night-sprinkle:before {
+  content: "\f039";
+}
+.wi-wi-night-storm-showers:before {
+  content: "\f03a";
+}
+.wi-wi-night-thunderstorm:before {
+  content: "\f03b";
+}
+.wi-wi-celsius:before {
+  content: "\f03c";
+}
+.wi-wi-cloud-down:before {
+  content: "\f03d";
+}
+.wi-wi-cloud-refresh:before {
+  content: "\f03e";
+}
+.wi-wi-cloud-up:before {
+  content: "\f040";
+}
+.wi-wi-cloud:before {
+  content: "\f041";
+}
+.wi-wi-degrees:before {
+  content: "\f042";
+}
+.wi-wi-direction-down-left:before {
+  content: "\f043";
+}
+.wi-wi-direction-down:before {
+  content: "\f044";
+}
+.wi-wi-fahrenheit:before {
+  content: "\f045";
+}
+.wi-wi-horizon-alt:before {
+  content: "\f046";
+}
+.wi-wi-horizon:before {
+  content: "\f047";
+}
+.wi-wi-direction-left:before {
+  content: "\f048";
+}
+.wi-wi-aliens:before {
+  content: "\f049";
+}
+.wi-wi-night-fog:before {
+  content: "\f04a";
+}
+.wi-wi-refresh-alt:before {
+  content: "\f04b";
+}
+.wi-wi-refresh:before {
+  content: "\f04c";
+}
+.wi-wi-direction-right:before {
+  content: "\f04d";
+}
+.wi-wi-raindrops:before {
+  content: "\f04e";
+}
+.wi-wi-strong-wind:before {
+  content: "\f050";
+}
+.wi-wi-sunrise:before {
+  content: "\f051";
+}
+.wi-wi-sunset:before {
+  content: "\f052";
+}
+.wi-wi-thermometer-exterior:before {
+  content: "\f053";
+}
+.wi-wi-thermometer-internal:before {
+  content: "\f054";
+}
+.wi-wi-thermometer:before {
+  content: "\f055";
+}
+.wi-wi-tornado:before {
+  content: "\f056";
+}
+.wi-wi-direction-up-right:before {
+  content: "\f057";
+}
+.wi-wi-direction-up:before {
+  content: "\f058";
+}
+.wi-wi-wind-direction-e:before {
+  content: "\f059";
+}
+.wi-wi-wind-direction-ne:before {
+  content: "\f05a";
+}
+.wi-wi-wind-direction-nw:before {
+  content: "\f05b";
+}
+.wi-wi-wind-direction-n:before {
+  content: "\f05c";
+}
+.wi-wi-wind-direction-se:before {
+  content: "\f05d";
+}
+.wi-wi-wind-direction-sw:before {
+  content: "\f05e";
+}
+.wi-wi-wind-direction-s:before {
+  content: "\f060";
+}
+.wi-wi-wind-direction-w:before {
+  content: "\f061";
+}
+.wi-wi-smoke:before {
+  content: "\f062";
+}
+.wi-wi-dust:before {
+  content: "\f063";
+}
+.wi-wi-snow-wind:before {
+  content: "\f064";
+}
+.wi-wi-day-snow-wind:before {
+  content: "\f065";
+}
+.wi-wi-night-snow-wind:before {
+  content: "\f066";
+}
+.wi-wi-night-alt-snow-wind:before {
+  content: "\f067";
+}
+.wi-wi-day-sleet-storm:before {
+  content: "\f068";
+}
+.wi-wi-night-sleet-storm:before {
+  content: "\f069";
+}
+.wi-wi-night-alt-sleet-storm:before {
+  content: "\f06a";
+}
+.wi-wi-day-snow-thunderstorm:before {
+  content: "\f06b";
+}
+.wi-wi-night-snow-thunderstorm:before {
+  content: "\f06c";
+}
+.wi-wi-night-alt-snow-thunderstorm:before {
+  content: "\f06d";
+}
+.wi-wi-solar-eclipse:before {
+  content: "\f06e";
+}
+.wi-wi-lunar-eclipse:before {
+  content: "\f070";
+}
+.wi-wi-meteor:before {
+  content: "\f071";
+}
+.wi-wi-hot:before {
+  content: "\f072";
+}
+.wi-wi-hurricane:before {
+  content: "\f073";
+}
+.wi-wi-smog:before {
+  content: "\f074";
+}
+.wi-wi-alien:before {
+  content: "\f075";
+}
+.wi-wi-snowflake-cold:before {
+  content: "\f076";
+}
+.wi-wi-stars:before {
+  content: "\f077";
+}
+.wi-wi-raindrop:before {
+  content: "\f078";
+}
+.wi-wi-barometer:before {
+  content: "\f079";
+}
+.wi-wi-humidity:before {
+  content: "\f07a";
+}
+.wi-wi-na:before {
+  content: "\f07b";
+}
+.wi-wi-flood:before {
+  content: "\f07c";
+}
+.wi-wi-day-cloudy-high:before {
+  content: "\f07d";
+}
+.wi-wi-night-alt-cloudy-high:before {
+  content: "\f07e";
+}
+.wi-wi-night-cloudy-high:before {
+  content: "\f080";
+}
+.wi-wi-night-alt-partly-cloudy:before {
+  content: "\f081";
+}
+.wi-wi-sandstorm:before {
+  content: "\f082";
+}
+.wi-wi-night-partly-cloudy:before {
+  content: "\f083";
+}
+.wi-wi-umbrella:before {
+  content: "\f084";
+}
+.wi-wi-day-windy:before {
+  content: "\f085";
+}
+.wi-wi-night-alt-cloudy:before {
+  content: "\f086";
+}
+.wi-wi-direction-up-left:before {
+  content: "\f087";
+}
+.wi-wi-direction-down-right:before {
+  content: "\f088";
+}
+.wi-wi-time-12:before {
+  content: "\f089";
+}
+.wi-wi-time-1:before {
+  content: "\f08a";
+}
+.wi-wi-time-2:before {
+  content: "\f08b";
+}
+.wi-wi-time-3:before {
+  content: "\f08c";
+}
+.wi-wi-time-4:before {
+  content: "\f08d";
+}
+.wi-wi-time-5:before {
+  content: "\f08e";
+}
+.wi-wi-time-6:before {
+  content: "\f08f";
+}
+.wi-wi-time-7:before {
+  content: "\f090";
+}
+.wi-wi-time-8:before {
+  content: "\f091";
+}
+.wi-wi-time-9:before {
+  content: "\f092";
+}
+.wi-wi-time-10:before {
+  content: "\f093";
+}
+.wi-wi-time-11:before {
+  content: "\f094";
+}
+.wi-wi-moon-new:before {
+  content: "\f095";
+}
+.wi-wi-moon-waxing-crescent-1:before {
+  content: "\f096";
+}
+.wi-wi-moon-waxing-crescent-2:before {
+  content: "\f097";
+}
+.wi-wi-moon-waxing-crescent-3:before {
+  content: "\f098";
+}
+.wi-wi-moon-waxing-crescent-4:before {
+  content: "\f099";
+}
+.wi-wi-moon-waxing-crescent-5:before {
+  content: "\f09a";
+}
+.wi-wi-moon-waxing-crescent-6:before {
+  content: "\f09b";
+}
+.wi-wi-moon-first-quarter:before {
+  content: "\f09c";
+}
+.wi-wi-moon-waxing-gibbous-1:before {
+  content: "\f09d";
+}
+.wi-wi-moon-waxing-gibbous-2:before {
+  content: "\f09e";
+}
+.wi-wi-moon-waxing-gibbous-3:before {
+  content: "\f09f";
+}
+.wi-wi-moon-waxing-gibbous-4:before {
+  content: "\f0a0";
+}
+.wi-wi-moon-waxing-gibbous-5:before {
+  content: "\f0a1";
+}
+.wi-wi-moon-waxing-gibbous-6:before {
+  content: "\f0a2";
+}
+.wi-wi-moon-full:before {
+  content: "\f0a3";
+}
+.wi-wi-moon-waning-gibbous-1:before {
+  content: "\f0a4";
+}
+.wi-wi-moon-waning-gibbous-2:before {
+  content: "\f0a5";
+}
+.wi-wi-moon-waning-gibbous-3:before {
+  content: "\f0a6";
+}
+.wi-wi-moon-waning-gibbous-4:before {
+  content: "\f0a7";
+}
+.wi-wi-moon-waning-gibbous-5:before {
+  content: "\f0a8";
+}
+.wi-wi-moon-waning-gibbous-6:before {
+  content: "\f0a9";
+}
+.wi-wi-moon-third-quarter:before {
+  content: "\f0aa";
+}
+.wi-wi-moon-waning-crescent-1:before {
+  content: "\f0ab";
+}
+.wi-wi-moon-waning-crescent-2:before {
+  content: "\f0ac";
+}
+.wi-wi-moon-waning-crescent-3:before {
+  content: "\f0ad";
+}
+.wi-wi-moon-waning-crescent-4:before {
+  content: "\f0ae";
+}
+.wi-wi-moon-waning-crescent-5:before {
+  content: "\f0af";
+}
+.wi-wi-moon-waning-crescent-6:before {
+  content: "\f0b0";
+}
+.wi-wi-wind-direction:before {
+  content: "\f0b1";
+}
+.wi-wi-day-sleet:before {
+  content: "\f0b2";
+}
+.wi-wi-night-sleet:before {
+  content: "\f0b3";
+}
+.wi-wi-night-alt-sleet:before {
+  content: "\f0b4";
+}
+.wi-wi-sleet:before {
+  content: "\f0b5";
+}
+.wi-wi-day-haze:before {
+  content: "\f0b6";
+}
+.wi-wi-wind-beaufort-0:before {
+  content: "\f0b7";
+}
+.wi-wi-wind-beaufort-1:before {
+  content: "\f0b8";
+}
+.wi-wi-wind-beaufort-2:before {
+  content: "\f0b9";
+}
+.wi-wi-wind-beaufort-3:before {
+  content: "\f0ba";
+}
+.wi-wi-wind-beaufort-4:before {
+  content: "\f0bb";
+}
+.wi-wi-wind-beaufort-5:before {
+  content: "\f0bc";
+}
+.wi-wi-wind-beaufort-6:before {
+  content: "\f0bd";
+}
+.wi-wi-wind-beaufort-7:before {
+  content: "\f0be";
+}
+.wi-wi-wind-beaufort-8:before {
+  content: "\f0bf";
+}
+.wi-wi-wind-beaufort-9:before {
+  content: "\f0c0";
+}
+.wi-wi-wind-beaufort-10:before {
+  content: "\f0c1";
+}
+.wi-wi-wind-beaufort-11:before {
+  content: "\f0c2";
+}
+.wi-wi-wind-beaufort-12:before {
+  content: "\f0c3";
+}
+.wi-wi-day-light-windd:before {
+  content: "\f0c4";
+}
+.wi-wi-tsunami:before {
+  content: "\f0c5";
+}
+.wi-wi-earthquake:before {
+  content: "\f0c6";
+}
+.wi-wi-fire:before {
+  content: "\f0c7";
+}
+.wi-wi-volcano:before {
+  content: "\f0c8";
+}
+.wi-wi-moonrise:before {
+  content: "\f0c9";
+}
+.wi-wi-moonset:before {
+  content: "\f0ca";
+}
+.wi-wi-train:before {
+  content: "\f0cb";
+}
+.wi-wi-small-craft-advisory:before {
+  content: "\f0cc";
+}
+.wi-wi-gale-warning:before {
+  content: "\f0cd";
+}
+.wi-wi-storm-warning:before {
+  content: "\f0ce";
+}
+.wi-wi-hurricane-warning:before {
+  content: "\f0cf";
+}
+.wi-wi-moon-alt-waxing-crescent-1:before {
+  content: "\f0d0";
+}
+.wi-wi-moon-alt-waxing-crescent-2:before {
+  content: "\f0d1";
+}
+.wi-wi-moon-alt-waxing-crescent-3:before {
+  content: "\f0d2";
+}
+.wi-wi-moon-alt-waxing-crescent-4:before {
+  content: "\f0d3";
+}
+.wi-wi-moon-alt-waxing-crescent-5:before {
+  content: "\f0d4";
+}
+.wi-wi-moon-alt-waxing-crescent-6:before {
+  content: "\f0d5";
+}
+.wi-wi-moon-alt-first-quarter:before {
+  content: "\f0d6";
+}
+.wi-wi-moon-alt-waxing-gibbous-1:before {
+  content: "\f0d7";
+}
+.wi-wi-moon-alt-waxing-gibbous-2:before {
+  content: "\f0d8";
+}
+.wi-wi-moon-alt-waxing-gibbous-3:before {
+  content: "\f0d9";
+}
+.wi-wi-moon-alt-waxing-gibbous-4:before {
+  content: "\f0da";
+}
+.wi-wi-moon-alt-waxing-gibbous-5:before {
+  content: "\f0db";
+}
+.wi-wi-moon-alt-waxing-gibbous-6:before {
+  content: "\f0dc";
+}
+.wi-wi-moon-alt-full:before {
+  content: "\f0dd";
+}
+.wi-wi-moon-alt-waning-gibbous-1:before {
+  content: "\f0de";
+}
+.wi-wi-moon-alt-waning-gibbous-2:before {
+  content: "\f0df";
+}
+.wi-wi-moon-alt-waning-gibbous-3:before {
+  content: "\f0e0";
+}
+.wi-wi-moon-alt-waning-gibbous-4:before {
+  content: "\f0e1";
+}
+.wi-wi-moon-alt-waning-gibbous-5:before {
+  content: "\f0e2";
+}
+.wi-wi-moon-alt-waning-gibbous-6:before {
+  content: "\f0e3";
+}
+.wi-wi-moon-alt-third-quarter:before {
+  content: "\f0e4";
+}
+.wi-wi-moon-alt-waning-crescent-1:before {
+  content: "\f0e5";
+}
+.wi-wi-moon-alt-waning-crescent-2:before {
+  content: "\f0e6";
+}
+.wi-wi-moon-alt-waning-crescent-3:before {
+  content: "\f0e7";
+}
+.wi-wi-moon-alt-waning-crescent-4:before {
+  content: "\f0e8";
+}
+.wi-wi-moon-alt-waning-crescent-5:before {
+  content: "\f0e9";
+}
+.wi-wi-moon-alt-waning-crescent-6:before {
+  content: "\f0ea";
+}
+.wi-wi-moon-alt-new:before {
+  content: "\f0eb";
+}
