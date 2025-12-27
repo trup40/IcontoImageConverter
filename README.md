@@ -39,7 +39,7 @@ This tool includes a wide range of icon libraries. Below is the list of integrat
 | **Animals** | 1.0.0 |
 | **Elegant Icons** | 1.0.0 |
 | **Feathericons** | 1.0.0 |
-| **Icomoon Ultimate** | (1.1) |
+| **Icomoon Ultimate** | 1.1 |
 
 ## 🚀 How to Use
 
@@ -78,3 +78,5 @@ Contributions, issues, and feature requests are welcome!
 ## 📝 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+AI was used for README.md preparation.
