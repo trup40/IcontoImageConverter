@@ -45,10 +45,7 @@ This tool includes a wide range of icon libraries. Below is the list of integrat
 
 Since this is a static web application, no build process or backend server is required.
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/icon-to-image-converter.git](https://github.com/YOUR_USERNAME/icon-to-image-converter.git)
-    ```
+1.  **Clone the repository**
 2.  **Open the file:**
     Navigate to the project folder and open `index.html` in any modern web browser.
 3.  **Start converting:**
